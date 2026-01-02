@@ -1,0 +1,25 @@
+header {
+  height: 3rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;  
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+  color: var(--text-secondary);
+}

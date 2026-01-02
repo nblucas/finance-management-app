@@ -1,9 +1,8 @@
+import "./global-styles.css"
+import Header from "./layouts/header/Header"
+
 function App() {
-  return (
-    <>
-      Hello World
-    </>
-  )
+  return <Header />
 }
 
 export default App
