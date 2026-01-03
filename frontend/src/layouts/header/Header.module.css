@@ -1,25 +1,25 @@
-header {
-  height: 3rem;
-  background-color: var(--bg-secondary);
-  color: var(--text-primary);
+.header {
+  height: 4rem;
+  background-color: var(--accent-primary);
+  color: #FFF;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-ul {
+.navContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;  
 }
 
-li {
+.navItem {
   list-style: none;
 }
 
-li:hover {
+.navItem:hover {
   cursor: pointer;
-  color: var(--text-secondary);
+  color: var(--accent-text-hover);
 }

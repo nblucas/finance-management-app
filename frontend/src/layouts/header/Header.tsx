@@ -2,13 +2,13 @@ import styles from "./Header.module.css"
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <nav>
-        <ul>
-          <li>
+        <ul className={styles.navContainer}>
+          <li className={styles.navItem}>
             Create entity
           </li>
-          <li>
+          <li className={styles.navItem}>
             Register expense
           </li>
         </ul>

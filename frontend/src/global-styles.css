@@ -18,6 +18,15 @@
   --text-secondary: #525252;
   --text-disabled: #A3A3A3;
 
-  --state-hover: #E0E0E0;
-  --state-active: #CFCFCF;  
+  --accent-primary: #6D5BD0;
+  --accent-hover: #5A4BC4;     
+  --accent-active: #4C3FA8;
+
+  --accent-soft: #d5c9ff;
+  --accent-border: #C9C2F0;
+
+  --accent-text: #FFF;
+  --accent-text-hover: rgb(217, 217, 217);
+
+  --side-margin: 8rem;
 }
