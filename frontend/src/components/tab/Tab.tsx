@@ -8,7 +8,7 @@ type TabProps = {
   }[]
 }
 
-export default function Tab(props: TabProps) {
+export default function Tab(props: Readonly<TabProps>) {
   const { tabTitles } = props
   const [currentTab, setCurrentTable] = useState(tabTitles[0])
 
@@ -20,7 +20,7 @@ export default function Tab(props: TabProps) {
 
         return (
           <li key={`${value.id}`} className={`${styles.tabItemContainer} ${tabActiveStyle}`}>
-            <button className={styles.tabItem} onClick={() => { console.log(value); setCurrentTable(value) }}>
+            <button className={styles.tabItem} onClick={() => {setCurrentTable(value)}}>
               {value.title}
             </button>
           </li>
