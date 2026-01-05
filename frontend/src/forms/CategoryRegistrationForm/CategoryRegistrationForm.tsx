@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from "react"
-import styles from "./ProductRegistrationForm.module.css"
+import styles from "./CategoryRegistrationForm.module.css"
 import TextInput from "../../components/text-input/TextInput"
 import SubmitButton from "../../components/submit-button/SubmitButton"
 
-export default function ProductRegistrationForm() {
+export default function CategoryRegistrationForm() {
   const [data, setData] = useState({
     name: "",
     category: "",
