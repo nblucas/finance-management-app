@@ -1,7 +1,4 @@
 
 .container {
-  background-color: var(--bg-secondary);
   margin: 2rem var(--side-margin);
-  padding: 2rem;
-  border-radius: 10px;
 }

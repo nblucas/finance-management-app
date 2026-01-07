@@ -12,18 +12,15 @@
   --bg-secondary: #F5F5F5;
   --bg-card: #E5E5E5;
 
-  --border-default: #D4D4D4;
-
-  --text-primary: #1F1F1F;
-  --text-secondary: #525252;
-  --text-disabled: #A3A3A3;
+  --text-black-primary: #1F1F1F;
+  --text-black-secondary: #525252;
+  --text-black-disabled: #A3A3A3;
 
   --accent-primary: #6D5BD0;
   --accent-hover: #5A4BC4;     
   --accent-active: #4C3FA8;
 
-  --accent-soft: #d5c9ff;
-  --accent-border: #C9C2F0;
+  --accent-soft: #c2b9e6;
 
   --accent-text: #FFF;
   --accent-text-hover: rgb(217, 217, 217);

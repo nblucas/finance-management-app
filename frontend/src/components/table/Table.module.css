@@ -1,0 +1,14 @@
+
+.cellsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.cellsContainer > div > div {
+  flex: 1 1 0px;
+}
+
+.cellsContainer > div > :nth-child(2) {
+  flex-grow: 3;
+}

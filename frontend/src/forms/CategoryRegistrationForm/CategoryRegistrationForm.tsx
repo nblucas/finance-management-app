@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react"
 import styles from "./CategoryRegistrationForm.module.css"
-import TextInput from "../../components/text-input/TextInput"
-import SubmitButton from "../../components/submit-button/SubmitButton"
+import TextInput from "../../components/form/text-input/TextInput"
+import SubmitButton from "../../components/form/submit-button/SubmitButton"
 
 export default function CategoryRegistrationForm() {
   const [data, setData] = useState({

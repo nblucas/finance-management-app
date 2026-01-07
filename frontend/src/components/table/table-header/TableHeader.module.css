@@ -1,0 +1,11 @@
+
+.container {
+  border-bottom: 2px solid var(--bg-card);
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-black-secondary);
+  font-weight: bold;
+}

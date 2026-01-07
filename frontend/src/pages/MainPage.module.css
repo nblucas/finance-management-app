@@ -1,0 +1,10 @@
+
+.header {
+  display: flex;
+  gap: 1rem;
+}
+
+.header > div {
+  flex-grow: 1;
+}
+
