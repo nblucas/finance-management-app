@@ -12,10 +12,18 @@
   flex-direction: column;
 }
 
-.cellsContainer > div > div {
+.cellsContainer > tbody > tr > td {
   flex: 1 1 0px;
 }
 
-.cellsContainer > div > :nth-child(2) {
+.cellsContainer > tbody > tr > :nth-child(2) {
+  flex-grow: 3;
+}
+
+.cellsContainer > thead > tr > th {
+  flex: 1 1 0px;
+}
+
+.cellsContainer > thead > tr > :nth-child(2) {
   flex-grow: 3;
 }

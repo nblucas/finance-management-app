@@ -63,12 +63,14 @@ export default function Table() {
           isTransparent
         />
       </div>
-      <div className={styles.cellsContainer}>
+      <table className={styles.cellsContainer}>
         <TableHeader data={["EXPENSE ID", "DESCRIPTION", "VALUE", "CATEGORY", "DATE"]}/>
-        {data.map((value) => {
-          return <TableRow key={value.id} data={[value.id, value.description, value.value, value.category, value.date ]} />
-        })}
-      </div>
+        <tbody>
+          {data.map((value) => {
+            return <TableRow key={value.id} data={[value.id, value.description, value.value, value.category, value.date ]} />
+          })}
+        </tbody>
+      </table>
     </div>
   )
 }

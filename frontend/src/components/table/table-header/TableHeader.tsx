@@ -8,10 +8,12 @@ export default function TableHeader(props: Readonly<TableHeaderProps>) {
   const { data } = props
 
   return (
-    <div className={styles.container}>
-      {data.map((value: any, index: any) => {
-        return <div key={`${index}-${value}`} className={styles.item}>{value}</div>
-      })}
-    </div>
+    <thead>
+      <tr className={styles.container}>
+        {data.map((value: any, index: any) => {
+          return <th key={`${index}-${value}`} className={styles.item}>{value}</th>
+        })}
+      </tr>
+    </thead>
   )
 }

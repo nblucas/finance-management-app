@@ -8,10 +8,10 @@ export default function TableRow(props: Readonly<TableRowProps>) {
   const { data } = props
 
   return (
-    <div className={styles.container}>
+    <tr className={styles.container}>
       {data.map((value: any, index: any) => {
-        return <div key={`${index}-${value}`} className={styles.item}>{value}</div>
+        return <td key={`${index}-${value}`} className={styles.item}>{value}</td>
       })}
-    </div>
+    </tr>
   )
 }
