@@ -1,8 +1,15 @@
+.mainContainer {
+  margin-top: 2rem;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+}
 
 .cellsContainer {
   display: flex;
   flex-direction: column;
-  margin: 1rem 0;
 }
 
 .cellsContainer > div > div {

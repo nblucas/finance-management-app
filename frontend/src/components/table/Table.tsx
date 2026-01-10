@@ -1,3 +1,5 @@
+import Button from "../button/Button"
+import SearchBar from "./search-bar/SearchBar"
 import TableHeader from "./table-header/TableHeader"
 import TableRow from "./table-row/TableRow"
 import styles from "./Table.module.css"
@@ -50,9 +52,16 @@ const data: DataType[] = [
 
 export default function Table() {
   return (
-    <>
-      <div>
-        
+    <div className={styles.mainContainer}>
+      <div className={styles.searchContainer}>
+        <SearchBar />
+        <Button
+          text={"Export"}
+          onClick={() => console.log("Filter")}
+          imageSrc="./src/assets/icons/file_save_icon.png"
+          imageAlt="File save icon."
+          isTransparent
+        />
       </div>
       <div className={styles.cellsContainer}>
         <TableHeader data={["EXPENSE ID", "DESCRIPTION", "VALUE", "CATEGORY", "DATE"]}/>
@@ -60,6 +69,6 @@ export default function Table() {
           return <TableRow key={value.id} data={[value.id, value.description, value.value, value.category, value.date ]} />
         })}
       </div>
-    </>
+    </div>
   )
 }
