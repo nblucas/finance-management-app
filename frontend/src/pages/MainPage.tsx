@@ -25,7 +25,15 @@ export default function MainPage() {
         />
       </div>
       <Table />
-      <Modal size="large" title="AAAAA"/>
+      <Modal
+        size="large" 
+        title="AAAAA"
+        body={() => 
+            <div>
+              <p>Hello World</p>
+            </div>
+        }
+      />
       </PageContainer>
     </>
   )

@@ -1,0 +1,9 @@
+
+.container {
+  background-color: var(--bg-secondary);
+  padding: .5rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}

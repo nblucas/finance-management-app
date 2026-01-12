@@ -1,0 +1,6 @@
+
+.container {
+  background-color: var(--bg-main);
+  padding: 1rem;
+  overflow: scroll;
+}

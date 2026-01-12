@@ -17,6 +17,8 @@
   z-index: 100;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
+  display: grid;
+  grid-template-rows: 3rem 1fr 4rem;
 }
 
 .large {
