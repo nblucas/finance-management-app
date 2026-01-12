@@ -1,0 +1,19 @@
+
+.container {
+  padding: .5rem .5rem .5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-card);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.container > button {
+  background-color: transparent;
+  border: none;
+}
+
+.icon {
+  width: 2rem;
+}

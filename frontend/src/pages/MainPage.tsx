@@ -3,6 +3,7 @@ import Button from "../components/button/Button"
 import FixedAlert from "../components/fixed-alert/FixedAlert"
 import PageContainer from "../layouts/page-container/PageContainer"
 import Table from "../components/table/Table"
+import Modal from "../components/modal/Modal"
 
 export default function MainPage() {
   return (
@@ -24,6 +25,7 @@ export default function MainPage() {
         />
       </div>
       <Table />
+      <Modal size="large" title="AAAAA"/>
       </PageContainer>
     </>
   )

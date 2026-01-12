@@ -1,0 +1,35 @@
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--bg-secondary);
+  z-index: 100;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.large {
+  width: 60%;
+  height: 80vh;
+}
+
+.medium {
+  width: 50%;
+  height: 60vh;
+}
+
+.small {
+  width: 40%;
+  height: 40vh;
+}
