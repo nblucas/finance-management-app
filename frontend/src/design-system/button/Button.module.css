@@ -1,0 +1,63 @@
+
+.button {
+  color: white;
+  padding: .5rem 1rem;
+  height: 3rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.small {
+  width: 8rem;
+}
+
+.medium {
+  width: 10rem;
+}
+
+.large {
+  width: 12rem;
+}
+
+.adjust {
+  width: 100%;
+}
+
+.normal {
+  background-color: rgb(11, 106, 200);
+}
+
+.button:hover {
+  background-color: rgb(13, 120, 228);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgb(11, 106, 200);
+}
+
+.disabled {
+  background-color: rgb(118, 118, 118);
+}
+
+.disabled:hover {
+  background-color: rgb(156, 156, 156);
+  cursor: not-allowed;
+}
+
+.disabled:active {
+  background-color: rgb(156, 156, 156);
+}
+
+.loading {
+  background-color: rgb(13, 120, 228);
+}
+
+.loading:hover {
+  cursor: wait;
+}
+
+.loading:active {
+  background-color: rgb(13, 120, 228);
+}
