@@ -1,18 +1,30 @@
-import Button from "../../button/Button"
+import { Button } from "../../button/index"
 import styles from "./ModalFooter.module.css"
 
 type ModalFooterProps = {
   confirmLabel: string
   cancelLabel: string
+  handleConfirm: () => void
+  handleCancel: () => void
 }
 
 export default function ModalFooter(props: Readonly<ModalFooterProps>) {
-  const { confirmLabel, cancelLabel } = props
+  const { confirmLabel, cancelLabel, handleConfirm, handleCancel } = props
   
   return (
     <div className={styles.container}>
-      <Button text={cancelLabel} onClick={() => console.log("Cancel")} isTransparent/>
-      <Button text={confirmLabel} onClick={() => console.log("Confirm")} />
+      <Button
+        label={cancelLabel}
+        size="small"
+        state="normal"
+        handleClick={handleConfirm}
+      />
+      <Button
+        label={confirmLabel}
+        size="small"
+        state="normal"
+        handleClick={handleCancel}
+      />
     </div>
   )
 }

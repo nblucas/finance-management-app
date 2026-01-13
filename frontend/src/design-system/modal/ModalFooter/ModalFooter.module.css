@@ -1,6 +1,6 @@
 
 .container {
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-card);
   padding: .5rem;
   display: flex;
   justify-content: end;
