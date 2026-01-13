@@ -9,7 +9,7 @@ type ModalProps = {
   body: () => React.ReactNode
 }
 
-export default function Modal(props: Readonly<ModalProps>) {
+export function Modal(props: Readonly<ModalProps>) {
   const { size, title, body } = props
   
   return (
