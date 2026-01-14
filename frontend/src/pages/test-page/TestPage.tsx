@@ -1,6 +1,5 @@
 import styles from "./TestPage.module.css"
-import { SideNav } from "../../design-system/side-nav"
-import { Link } from "../../design-system/link"
+import { SideNav } from "../../component-lib/side-nav"
 
 const listData = [
   {
